@@ -7,7 +7,7 @@ int main()
     printf("Enter The Number: ");
     scanf("%d", &number);
 
-    if (number > 90)
+    if (number >= 90)
     {
         printf("Your Grade is 'AA'");
     }
@@ -15,19 +15,19 @@ int main()
     {
         printf("Your Grade is 'A+'");
     }
-    else if (number > 60 && 80 > number)
+    else if (number > 60 && 79 > number)
     {
         printf("Your Grade is 'A'");
     }
-    else if (number > 45 && 60 > number)
+    else if (number > 45 && 59 > number)
     {
         printf("Your Grade is 'B+'");
     }
-    else if (number > 35 && 45 > number)
+    else if (number > 35 && 44 > number)
     {
         printf("Your Grade is 'B'");
     }
-    else if (number > 25 && 35 > number)
+    else if (number > 25 && 34 > number)
     {
         printf("Your Grade is 'B'");
     }
