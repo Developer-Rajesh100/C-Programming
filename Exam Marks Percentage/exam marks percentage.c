@@ -2,18 +2,17 @@
 
 int main()
 {
-    float mark, total, a = 100;
-    double percentage;
+    float mark, total, percentage, a = 100;
 
     printf("Enter Total Marks: ");
-    scanf("%d", &total);
+    scanf("%f", &total);
 
     printf("Enter Your Marks: ");
-    scanf("%d", &mark);
+    scanf("%f", &mark);
 
     percentage = mark * a / total;
 
-    printf("Your Percentage is: %lf", percentage);
+    printf("Your Percentage is: %f", percentage);
 
     return 0;
 }
