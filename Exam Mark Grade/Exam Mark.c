@@ -31,7 +31,7 @@ int main()
     {
         printf("Your Grade is 'C'");
     }
-    else if (25 > number)
+    if (25 > number)
     {
         printf("You are Fail");
     }
